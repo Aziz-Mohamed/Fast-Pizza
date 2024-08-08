@@ -1,0 +1,47 @@
+|-- .eslintrc.cjs
+|-- .eslintrc.json
+|-- .gitignore
+|-- .prettierrc
+|-- README.md
+|-- index.html
+|-- package-lock.json
+|-- package.json
+|-- postcss.config.js
+|-- public
+    |-- vite.svg
+|-- src
+    |-- App.jsx
+    |-- features
+        |-- cart
+            |-- Cart.jsx
+            |-- CartItem.jsx
+            |-- CartOverview.jsx
+            |-- EmptyCart.jsx
+        |-- menu
+            |-- Menu.jsx
+            |-- MenuItem.jsx
+        |-- order
+            |-- CreateOrder.jsx
+            |-- Order.jsx
+            |-- SearchOrder.jsx
+        |-- user
+            |-- CreateUser.jsx
+            |-- Username.jsx
+    |-- index.css
+    |-- main.jsx
+    |-- services
+        |-- apiGeocoding.js
+        |-- apiRestaurant.js
+    |-- starter
+        |-- OrderItem.jsx
+        |-- userSlice.js
+    |-- ui
+        |-- AppLayout.jsx
+        |-- Error.jsx
+        |-- Header.jsx
+        |-- Home.jsx
+        |-- Loader.jsx
+    |-- utils
+        |-- helpers.js
+|-- tailwind.config.js
+|-- vite.config.js
