@@ -17,24 +17,26 @@
             |-- CartItem.jsx
             |-- CartOverview.jsx
             |-- EmptyCart.jsx
+            |-- cartSlice.js
         |-- menu
             |-- Menu.jsx
             |-- MenuItem.jsx
         |-- order
             |-- CreateOrder.jsx
             |-- Order.jsx
+            |-- OrderItem.jsx
             |-- SearchOrder.jsx
         |-- user
             |-- CreateUser.jsx
             |-- Username.jsx
+            |-- userSlice.js
     |-- index.css
     |-- main.jsx
     |-- services
         |-- apiGeocoding.js
         |-- apiRestaurant.js
     |-- starter
-        |-- OrderItem.jsx
-        |-- userSlice.js
+    |-- store.js
     |-- ui
         |-- AppLayout.jsx
         |-- Button.jsx
