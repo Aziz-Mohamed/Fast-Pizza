@@ -16,6 +16,7 @@
             |-- Cart.jsx
             |-- CartItem.jsx
             |-- CartOverview.jsx
+            |-- DeleteItem.jsx
             |-- EmptyCart.jsx
             |-- cartSlice.js
         |-- menu
