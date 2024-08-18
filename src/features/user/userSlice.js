@@ -29,8 +29,11 @@ export const fetchAddress = createAsyncThunk(
 
 const initialState = {
   username: "",
+  position: {},
+  address: "",
+  status: "idle",
+  error: null,
 };
-
 const userSlice = createSlice({
   name: "user",
   initialState,
@@ -51,7 +54,7 @@ const userSlice = createSlice({
       })
       .addCase(fetchAddress.rejected, (state, action) => {
         state.status = 'error';
-        state.error - action.error.message;
+        state.error = 'There was a problem getting your address. make sure you fill this field!';
       })
 });
 
